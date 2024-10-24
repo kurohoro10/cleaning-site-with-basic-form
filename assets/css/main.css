@@ -26,6 +26,10 @@
     --default:'Mukta', sans-serif;
     --title:'Montserrat', sans-serif;
     --cursive:'Dancing Script', cursive;
+    --error: #D8000C;
+    --errorbg: #FFBABA;
+    --success: #4F8A10;
+    --successbg: #DFF2BF;
 }
 ::-webkit-scrollbar {
     height: 12px;
@@ -283,6 +287,28 @@ fieldset{
     }
 }
 
+.success, .error{
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.success {
+    color: var(--success);
+    background-color: var(--successbg);
+    padding: 10px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.error{
+    color: var(--error);
+    background-color: var(--errorbg);
+}
+
+.hide {
+    display: none;
+}
 
 /*MAIN*/
 main{
@@ -685,10 +711,6 @@ form input, form select, form textarea{
 .section5 .btn1:hover{
     background-color:var(--white);
     color:var(--secondary_dark);
-}
-
-.section5 .hide {
-    display: none;
 }
 
 .section5 form#contact-form{

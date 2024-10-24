@@ -1,3 +1,12 @@
+<?php
+    session_start();
+
+    require_once __DIR__ . '/classes/SessionManager.class.php';
+    use Classes\SessionManager;
+
+    $csrf_token = new SessionManager();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -55,27 +64,33 @@
                 <em style="color:var(--secondary)">It is a long established fact</em>
             </section>
             <section class="flex-content padding_2x">
-                <form id="form" class="padding_2x">
+                <form id="form" class="padding_2x" method="POST" action="bootstrap.php">
+                    <input type="hidden" name="csrf_token_services" id="csrf_token_services" value="<?php echo $csrf_token->generateCsrfToken(); ?>">
                     <h2 class="small">Book a service</h2>
+                    <div class="success hide"><span></span></div>
                     <fieldset>
                         <label for="fname">Your name</label>
-                        <input type="text" name="fname" id="fname" maxlength="60" />
+                        <input type="text" name="fname" id="fname" maxlength="60" placeholder="full name"/>
+                        <div class="error hide"><span></span></div>
                     </fieldset>
                     <fieldset>
                         <label for="cno" id="cno">Contact number</label>
-                        <input type="tel" name="cno" maxlength="15" />
+                        <input type="tel" name="cno" maxlength="15" placeholder="contact number"/>
+                        <div class="error hide"><span></span></div>
                     </fieldset>
                     <fieldset>
                         <label for="zip" id="zip">Zip code</label>
-                        <input type="tel" name="zip" maxlength="8" />
+                        <input type="tel" name="zip" maxlength="8" placeholder="zip code"/>
+                        <div class="error hide"><span></span></div>
                     </fieldset>
                     <fieldset>
                         <label for="service">Choose a service</label>
                         <select name="service" id="service">
-                            <option value="1">Residential Cleaning</option>
-                            <option value="2">Commercial Cleaning</option>
-                            <option value="3">Other</option>
+                            <option value="Residential Cleaning">Residential Cleaning</option>
+                            <option value="Commercial Cleaning">Commercial Cleaning</option>
+                            <option value="Other">Other</option>
                         </select>
+                        <div class="error hide"><span></span></div>
                     </fieldset>
                     <fieldset>
                         <button id="form_btn" class="btn2">SUBMIT DETAILS</button>
@@ -199,37 +214,44 @@
                 <div class="container">
                     <h1 class="title small">Stay connected with us</h1>
                     <p>Have any questions? please feel free to contact us. We are always happy to hear from you.</p>
-                    <form id="contact-form" class="padding_1x">
+                    <div class="success hide"><span></span></div>
+                    <form id="contact-form" class="padding_1x" method="POST" action="bootstrap.php">
+                        <input type="hidden" name="csrf_token_contact" id="csrf_token_contact" value="<?php echo $csrf_token->generateCsrfToken(); ?>">
                         <div class="flex">
                             <div class="flex-grow">
                                 <fieldset>
-                                    <label for="fullname" class="hide">Your full name</label>
+                                    <label for="fullname" class="hide">full name</label>
                                     <input type="text" name="fullname" id="fullname" maxlength="60" placeholder="Your full name"/>
+                                    <div class="error hide"><span></span></div>
                                 </fieldset>
                                 <fieldset>
                                     <label for="contactno" id="contactno" class="hide">Contact number</label>
                                     <input type="tel" name="contactno" maxlength="15" placeholder="Contact number"/>
+                                    <div class="error hide"><span></span></div>
                                 </fieldset>
                             </div>
                             <div class="flex-grow">
                                 <fieldset>
                                     <label for="email" id="email" class="hide">Email</label>
-                                    <input type="email" name="email" maxlength="8" placeholder="Email"/>
+                                    <input type="email" name="email" maxlength="255" placeholder="Email"/>
+                                    <div class="error hide"><span></span></div>
                                 </fieldset>
                                 <fieldset>
                                     <label for="country" class="hide">Country</label>
                                     <select name="country" id="country">
                                         <option value="">Country</option>
-                                        <option value="1">Australia</option>
-                                        <option value="2">New Zealand</option>
-                                        <option value="3">Others</option>
+                                        <option value="Australia">Australia</option>
+                                        <option value="New Zealand">New Zealand</option>
+                                        <option value="Others">Others</option>
                                     </select>
+                                    <div class="error hide"><span></span></div>
                                 </fieldset>
                             </div>
                             <div class="flex-grow">
                                 <fieldset>
                                     <label for="message" class="hide">Message</label>
-                                    <textarea name="message" id="message" placeholder="Write a message here...."></textarea>
+                                    <textarea name="message" id="message" placeholder="message"></textarea>
+                                    <div class="error hide"><span></span></div>
                                 </fieldset>
                             </div>
                         </div>
