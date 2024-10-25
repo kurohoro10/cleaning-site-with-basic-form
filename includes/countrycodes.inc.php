@@ -1,242 +1,1683 @@
-<select id="countryCode" name="countryCode">
-    <option value="93">Afghanistan (+93)</option>
-    <option value="355">Albania (+355)</option>
-    <option value="213">Algeria (+213)</option>
-    <option value="1684">American Samoa (+1684)</option>
-    <option value="376">Andorra (+376)</option>
-    <option value="244">Angola (+244)</option>
-    <option value="1264">Anguilla (+1264)</option>
-    <option value="672">Antarctica (+672)</option>
-    <option value="1268">Antigua and Barbuda (+1268)</option>
-    <option value="54">Argentina (+54)</option>
-    <option value="374">Armenia (+374)</option>
-    <option value="297">Aruba (+297)</option>
-    <option value="61">Australia (+61)</option>
-    <option value="43">Austria (+43)</option>
-    <option value="994">Azerbaijan (+994)</option>
-    <option value="1242">Bahamas (+1242)</option>
-    <option value="973">Bahrain (+973)</option>
-    <option value="880">Bangladesh (+880)</option>
-    <option value="1246">Barbados (+1246)</option>
-    <option value="375">Belarus (+375)</option>
-    <option value="32">Belgium (+32)</option>
-    <option value="501">Belize (+501)</option>
-    <option value="229">Benin (+229)</option>
-    <option value="1441">Bermuda (+1441)</option>
-    <option value="975">Bhutan (+975)</option>
-    <option value="591">Bolivia (+591)</option>
-    <option value="387">Bosnia and Herzegovina (+387)</option>
-    <option value="267">Botswana (+267)</option>
-    <option value="55">Brazil (+55)</option>
-    <option value="246">British Indian Ocean Territory (+246)</option>
-    <option value="1284">British Virgin Islands (+1284)</option>
-    <option value="673">Brunei (+673)</option>
-    <option value="359">Bulgaria (+359)</option>
-    <option value="226">Burkina Faso (+226)</option>
-    <option value="257">Burundi (+257)</option>
-    <option value="855">Cambodia (+855)</option>
-    <option value="237">Cameroon (+237)</option>
-    <option value="1">Canada (+1)</option>
-    <option value="238">Cape Verde (+238)</option>
-    <option value="1345">Cayman Islands (+1345)</option>
-    <option value="236">Central African Republic (+236)</option>
-    <option value="235">Chad (+235)</option>
-    <option value="56">Chile (+56)</option>
-    <option value="86">China (+86)</option>
-    <option value="61">Christmas Island (+61)</option>
-    <option value="61">Cocos Islands (+61)</option>
-    <option value="57">Colombia (+57)</option>
-    <option value="269">Comoros (+269)</option>
-    <option value="682">Cook Islands (+682)</option>
-    <option value="506">Costa Rica (+506)</option>
-    <option value="385">Croatia (+385)</option>
-    <option value="53">Cuba (+53)</option>
-    <option value="599">Curacao (+599)</option>
-    <option value="357">Cyprus (+357)</option>
-    <option value="420">Czech Republic (+420)</option>
-    <option value="243">Democratic Republic of the Congo (+243)</option>
-    <option value="45">Denmark (+45)</option>
-    <option value="253">Djibouti (+253)</option>
-    <option value="1767">Dominica (+1767)</option>
-    <option value="1809">Dominican Republic (+1809)</option>
-    <option value="670">East Timor (+670)</option>
-    <option value="593">Ecuador (+593)</option>
-    <option value="20">Egypt (+20)</option>
-    <option value="503">El Salvador (+503)</option>
-    <option value="240">Equatorial Guinea (+240)</option>
-    <option value="291">Eritrea (+291)</option>
-    <option value="372">Estonia (+372)</option>
-    <option value="251">Ethiopia (+251)</option>
-    <option value="500">Falkland Islands (+500)</option>
-    <option value="298">Faroe Islands (+298)</option>
-    <option value="679">Fiji (+679)</option>
-    <option value="358">Finland (+358)</option>
-    <option value="33">France (+33)</option>
-    <option value="689">French Polynesia (+689)</option>
-    <option value="241">Gabon (+241)</option>
-    <option value="220">Gambia (+220)</option>
-    <option value="995">Georgia (+995)</option>
-    <option value="49">Germany (+49)</option>
-    <option value="233">Ghana (+233)</option>
-    <option value="350">Gibraltar (+350)</option>
-    <option value="30">Greece (+30)</option>
-    <option value="299">Greenland (+299)</option>
-    <option value="1473">Grenada (+1473)</option>
-    <option value="1671">Guam (+1671)</option>
-    <option value="502">Guatemala (+502)</option>
-    <option value="44-1481">Guernsey (+44-1481)</option>
-    <option value="224">Guinea (+224)</option>
-    <option value="245">Guinea-Bissau (+245)</option>
-    <option value="592">Guyana (+592)</option>
-    <option value="509">Haiti (+509)</option>
-    <option value="504">Honduras (+504)</option>
-    <option value="852">Hong Kong (+852)</option>
-    <option value="36">Hungary (+36)</option>
-    <option value="354">Iceland (+354)</option>
-    <option value="91">India (+91)</option>
-    <option value="62">Indonesia (+62)</option>
-    <option value="98">Iran (+98)</option>
-    <option value="964">Iraq (+964)</option>
-    <option value="353">Ireland (+353)</option>
-    <option value="44-1624">Isle of Man (+44-1624)</option>
-    <option value="972">Israel (+972)</option>
-    <option value="39">Italy (+39)</option>
-    <option value="225">Ivory Coast (+225)</option>
-    <option value="1876">Jamaica (+1876)</option>
-    <option value="81">Japan (+81)</option>
-    <option value="44-1534">Jersey (+44-1534)</option>
-    <option value="962">Jordan (+962)</option>
-    <option value="7">Kazakhstan (+7)</option>
-    <option value="254">Kenya (+254)</option>
-    <option value="686">Kiribati (+686)</option>
-    <option value="383">Kosovo (+383)</option>
-    <option value="965">Kuwait (+965)</option>
-    <option value="996">Kyrgyzstan (+996)</option>
-    <option value="856">Laos (+856)</option>
-    <option value="371">Latvia (+371)</option>
-    <option value="961">Lebanon (+961)</option>
-    <option value="266">Lesotho (+266)</option>
-    <option value="231">Liberia (+231)</option>
-    <option value="218">Libya (+218)</option>
-    <option value="423">Liechtenstein (+423)</option>
-    <option value="370">Lithuania (+370)</option>
-    <option value="352">Luxembourg (+352)</option>
-    <option value="853">Macau (+853)</option>
-    <option value="389">Macedonia (+389)</option>
-    <option value="261">Madagascar (+261)</option>
-    <option value="265">Malawi (+265)</option>
-    <option value="60">Malaysia (+60)</option>
-    <option value="960">Maldives (+960)</option>
-    <option value="223">Mali (+223)</option>
-    <option value="356">Malta (+356)</option>
-    <option value="692">Marshall Islands (+692)</option>
-    <option value="222">Mauritania (+222)</option>
-    <option value="230">Mauritius (+230)</option>
-    <option value="262">Mayotte (+262)</option>
-    <option value="52">Mexico (+52)</option>
-    <option value="691">Micronesia (+691)</option>
-    <option value="373">Moldova (+373)</option>
-    <option value="377">Monaco (+377)</option>
-    <option value="976">Mongolia (+976)</option>
-    <option value="382">Montenegro (+382)</option>
-    <option value="1664">Montserrat (+1664)</option>
-    <option value="212">Morocco (+212)</option>
-    <option value="258">Mozambique (+258)</option>
-    <option value="95">Myanmar (+95)</option>
-    <option value="264">Namibia (+264)</option>
-    <option value="674">Nauru (+674)</option>
-    <option value="977">Nepal (+977)</option>
-    <option value="31">Netherlands (+31)</option>
-    <option value="599">Netherlands Antilles (+599)</option>
-    <option value="687">New Caledonia (+687)</option>
-    <option value="64">New Zealand (+64)</option>
-    <option value="505">Nicaragua (+505)</option>
-    <option value="227">Niger (+227)</option>
-    <option value="234">Nigeria (+234)</option>
-    <option value="683">Niue (+683)</option>
-    <option value="850">North Korea (+850)</option>
-    <option value="1670">Northern Mariana Islands (+1670)</option>
-    <option value="47">Norway (+47)</option>
-    <option value="968">Oman (+968)</option>
-    <option value="92">Pakistan (+92)</option>
-    <option value="680">Palau (+680)</option>
-    <option value="970">Palestine (+970)</option>
-    <option value="507">Panama (+507)</option>
-    <option value="675">Papua New Guinea (+675)</option>
-    <option value="595">Paraguay (+595)</option>
-    <option value="51">Peru (+51)</option>
-    <option value="63">Philippines (+63)</option>
-    <option value="64">Pitcairn (+64)</option>
-    <option value="48">Poland (+48)</option>
-    <option value="351">Portugal (+351)</option>
-    <option value="1787">Puerto Rico (+1787)</option>
-    <option value="974">Qatar (+974)</option>
-    <option value="242">Republic of the Congo (+242)</option>
-    <option value="262">Reunion (+262)</option>
-    <option value="40">Romania (+40)</option>
-    <option value="7">Russia (+7)</option>
-    <option value="250">Rwanda (+250)</option>
-    <option value="590">Saint Barthelemy (+590)</option>
-    <option value="290">Saint Helena (+290)</option>
-    <option value="1869">Saint Kitts and Nevis (+1869)</option>
-    <option value="1758">Saint Lucia (+1758)</option>
-    <option value="590">Saint Martin (+590)</option>
-    <option value="508">Saint Pierre and Miquelon (+508)</option>
-    <option value="1784">Saint Vincent and the Grenadines (+1784)</option>
-    <option value="685">Samoa (+685)</option>
-    <option value="378">San Marino (+378)</option>
-    <option value="239">Sao Tome and Principe (+239)</option>
-    <option value="966">Saudi Arabia (+966)</option>
-    <option value="221">Senegal (+221)</option>
-    <option value="381">Serbia (+381)</option>
-    <option value="248">Seychelles (+248)</option>
-    <option value="232">Sierra Leone (+232)</option>
-    <option value="65">Singapore (+65)</option>
-    <option value="1721">Sint Maarten (+1721)</option>
-    <option value="421">Slovakia (+421)</option>
-    <option value="386">Slovenia (+386)</option>
-    <option value="677">Solomon Islands (+677)</option>
-    <option value="252">Somalia (+252)</option>
-    <option value="27">South Africa (+27)</option>
-    <option value="82">South Korea (+82)</option>
-    <option value="211">South Sudan (+211)</option>
-    <option value="34">Spain (+34)</option>
-    <option value="94">Sri Lanka (+94)</option>
-    <option value="249">Sudan (+249)</option>
-    <option value="597">Suriname (+597)</option>
-    <option value="47">Svalbard and Jan Mayen (+47)</option>
-    <option value="268">Swaziland (+268)</option>
-    <option value="46">Sweden (+46)</option>
-    <option value="41">Switzerland (+41)</option>
-    <option value="963">Syria (+963)</option>
-    <option value="886">Taiwan (+886)</option>
-    <option value="992">Tajikistan (+992)</option>
-    <option value="255">Tanzania (+255)</option>
-    <option value="66">Thailand (+66)</option>
-    <option value="228">Togo (+228)</option>
-    <option value="690">Tokelau (+690)</option>
-    <option value="676">Tonga (+676)</option>
-    <option value="1868">Trinidad and Tobago (+1868)</option>
-    <option value="216">Tunisia (+216)</option>
-    <option value="90">Turkey (+90)</option>
-    <option value="993">Turkmenistan (+993)</option>
-    <option value="1649">Turks and Caicos Islands (+1649)</option>
-    <option value="688">Tuvalu (+688)</option>
-    <option value="1340">U.S. Virgin Islands (+1340)</option>
-    <option value="256">Uganda (+256)</option>
-    <option value="380">Ukraine (+380)</option>
-    <option value="971">United Arab Emirates (+971)</option>
-    <option value="44">United Kingdom (+44)</option>
-    <option value="1">United States (+1)</option>
-    <option value="598">Uruguay (+598)</option>
-    <option value="998">Uzbekistan (+998)</option>
-    <option value="678">Vanuatu (+678)</option>
-    <option value="379">Vatican (+379)</option>
-    <option value="58">Venezuela (+58)</option>
-    <option value="84">Vietnam (+84)</option>
-    <option value="681">Wallis and Futuna (+681)</option>
-    <option value="212">Western Sahara (+212)</option>
-    <option value="967">Yemen (+967)</option>
-    <option value="260">Zambia (+260)</option>
-    <option value="263">Zimbabwe (+263)</option>
-</select>
+<ul id="countryCode" name="countryCode">
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Afghanistan.webp" alt="">
+        </div>
+        Afghanistan (+93)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Albania.webp" alt="">
+        </div>
+        Albania (+355)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Algeria.webp" alt="">
+        </div>
+        Algeria (+213)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/American Samoa.webp" alt="">
+        </div>
+        American Samoa (+1684)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Andorra.webp" alt="">
+        </div>
+        Andorra (+376)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Angola.webp" alt="">
+        </div>
+        Angola (+244)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Anguilla.webp" alt="">
+        </div>
+        Anguilla (+1264)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Antarctica.webp" alt="">
+        </div>
+        Antarctica (+672)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Antigua and Barbuda.webp" alt="">
+        </div>
+        Antigua and Barbuda (+1268)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Argentina.webp" alt="">
+        </div>
+        Argentina (+54)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Armenia.webp" alt="">
+        </div>
+        Armenia (+374)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Aruba.webp" alt="">
+        </div>
+        Aruba (+297)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Australia.webp" alt="">
+        </div>
+        Australia (+61)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Austria.webp" alt="">
+        </div>
+        Austria (+43)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Azerbaijan.webp" alt="">
+        </div>
+        Azerbaijan (+994)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Bahamas.webp" alt="">
+        </div>
+        Bahamas (+1242)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Bahrain.webp" alt="">
+        </div>
+        Bahrain (+973)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Bangladesh.webp" alt="">
+        </div>
+        Bangladesh (+880)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Barbados.webp" alt="">
+        </div>
+        Barbados (+1246)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Belarus.webp" alt="">
+        </div>
+        Belarus (+375)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Belgium.webp" alt="">
+        </div>
+        Belgium (+32)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Belize.webp" alt="">
+        </div>
+        Belize (+501)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Benin.webp" alt="">
+        </div>
+        Benin (+229)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Bermuda.webp" alt="">
+        </div>
+        Bermuda (+1441)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Bhutan.webp" alt="">
+        </div>
+        Bhutan (+975)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Bolivia.webp" alt="">
+        </div>
+        Bolivia (+591)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Bosnia and Herzegovina.webp" alt="">
+        </div>
+        Bosnia and Herzegovina (+387)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Botswana.webp" alt="">
+        </div>
+        Botswana (+267)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Brazil.webp" alt="">
+        </div>
+        Brazil (+55)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/British Indian Ocean Territory.webp" alt="">
+        </div>
+        British Indian Ocean Territory (+246)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/British Virgin Islands.webp" alt="">
+        </div>
+        British Virgin Islands (+1284)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Brunei.webp" alt="">
+        </div>
+        Brunei (+673)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Bulgaria.webp" alt="">
+        </div>
+        Bulgaria (+359)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Burkina Faso.webp" alt="">
+        </div>
+        Burkina Faso (+226)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Burundi.webp" alt="">
+        </div>
+        Burundi (+257)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Cambodia.webp" alt="">
+        </div>
+        Cambodia (+855)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Cameroon.webp" alt="">
+        </div>
+        Cameroon (+237)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Canada.webp" alt="">
+        </div>
+        Canada (+1)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Cape Verde.webp" alt="">
+        </div>
+        Cape Verde (+238)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Cayman Islands.webp" alt="">
+        </div>
+        Cayman Islands (+1345)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Central African Republic.webp" alt="">
+        </div>
+        Central African Republic (+236)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Chad.webp" alt="">
+        </div>
+        Chad (+235)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Chile.webp" alt="">
+        </div>
+        Chile (+56)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/China.webp" alt="">
+        </div>
+        China (+86)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Christmas Island.webp" alt="">
+        </div>
+        Christmas Island (+61)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Cocos Island.webp" alt="">
+        </div>
+        Cocos Islands (+61)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Colombia.webp" alt="">
+        </div>
+        Colombia (+57)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Comoros.webp" alt="">
+        </div>
+        Comoros (+269)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Cook Islands.webp" alt="">
+        </div>
+        Cook Islands (+682)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Costa Rica.webp" alt="">
+        </div>
+        Costa Rica (+506)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Croatia.webp" alt="">
+        </div>
+        Croatia (+385)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Cuba.webp" alt="">
+        </div>
+        Cuba (+53)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Curacao.webp" alt="">
+        </div>
+        Curacao (+599)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Cyprus.webp" alt="">
+        </div>
+        Cyprus (+357)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Czech Republic.webp" alt="">
+        </div>
+        Czech Republic (+420)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Democratic Republic of the Congo.webp" alt="">
+        </div>
+        Democratic Republic of the Congo (+243)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Denmark.webp" alt="">
+        </div>
+        Denmark (+45)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Djibouti.webp" alt="">
+        </div>
+        Djibouti (+253)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Dominica.webp" alt="">
+        </div>
+        Dominica (+1767)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Dominican Republic .webp" alt="">
+        </div>
+        Dominican Republic (+1809)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/East Timor.webp" alt="">
+        </div>
+        East Timor (+670)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Ecuador.webp" alt="">
+        </div>
+        Ecuador (+593)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Egypt.webp" alt="">
+        </div>
+        Egypt (+20)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/El Salvador.webp" alt="">
+        </div>
+        El Salvador (+503)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Equatorial Guinea.webp" alt="">
+        </div>
+        Equatorial Guinea (+240)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Eritrea.webp" alt="">
+        </div>
+        Eritrea (+291)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Estonia.webp" alt="">
+        </div>
+        Estonia (+372)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Ethiopia.webp" alt="">
+        </div>
+        Ethiopia (+251)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Falkland Islands.webp" alt="">
+        </div>
+        Falkland Islands (+500)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Faroe Islands.webp" alt="">
+        </div>
+        Faroe Islands (+298)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Fiji.webp" alt="">
+        </div>
+        Fiji (+679)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Finland.webp" alt="">
+        </div>
+        Finland (+358)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/France.webp" alt="">
+        </div>
+        France (+33)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/French Polynesia.webp" alt="">
+        </div>
+        French Polynesia (+689)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Gabon.webp" alt="">
+        </div>
+        Gabon (+241)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Gambia.webp" alt="">
+        </div>
+        Gambia (+220)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Georgia.webp" alt="">
+        </div>
+        Georgia (+995)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Germany.webp" alt="">
+        </div>
+        Germany (+49)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Ghana.webp" alt="">
+        </div>
+        Ghana (+233)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Gibraltar.webp" alt="">
+        </div>
+        Gibraltar (+350)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Greece.webp" alt="">
+        </div>
+        Greece (+30)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Greenland.webp" alt="">
+        </div>
+        Greenland (+299)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Grenada.webp" alt="">
+        </div>
+        Grenada (+1473)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Guam.webp" alt="">
+        </div>
+        Guam (+1671)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Guatemala.webp" alt="">
+        </div>
+        Guatemala (+502)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Guernsey.webp" alt="">
+        </div>
+        Guernsey (+44-1481)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Guinea.webp" alt="">
+        </div>
+        Guinea (+224)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Guinea-Bissau.webp" alt="">
+        </div>
+        Guinea-Bissau (+245)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Guyana.webp" alt="">
+        </div>
+        Guyana (+592)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Haiti.webp" alt="">
+        </div>
+        Haiti (+509)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Honduras.webp" alt="">
+        </div>
+        Honduras (+504)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Hong Kong.webp" alt="">
+        </div>
+        Hong Kong (+852)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Hungary.webp" alt="">
+        </div>
+        Hungary (+36)
+    </li>
+    
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Iceland.webp" alt="">
+        </div>
+        Iceland (+354)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/India.webp" alt="">
+        </div>
+        India (+91)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Indonesia.webp" alt="">
+        </div>
+        Indonesia (+62)
+    </li>
+    
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Iran.webp" alt="">
+        </div>
+        Iran (+98)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Iraq.webp" alt="">
+        </div>
+        Iraq (+964)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Ireland.webp" alt="">
+        </div>
+        Ireland (+353)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Isle of Man.webp" alt="">
+        </div>
+        Isle of Man (+44-1624)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Israel.webp" alt="">
+        </div>
+        Israel (+972)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Italy.webp" alt="">
+        </div>
+        Italy (+39)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Ivory Coast.webp" alt="">
+        </div>
+        Ivory Coast (+225)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Jamaica.webp" alt="">
+        </div>
+        Jamaica (+1876)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Japan.webp" alt="">
+        </div>
+        Japan (+81)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Jersey.webp" alt="">
+        </div>
+        Jersey (+44-1534)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Jordan.webp" alt="">
+        </div>
+        Jordan (+962)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Kazakhstan.webp" alt="">
+        </div>
+        Kazakhstan (+7)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Kenya.webp" alt="">
+        </div>
+        Kenya (+254)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Kiribati.webp" alt="">
+        </div>
+        Kiribati (+686)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Kosovo.webp" alt="">
+        </div>
+        Kosovo (+383)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Kuwait.webp" alt="">
+        </div>
+        Kuwait (+965)
+    </li>
+    
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Kyrgyzstan.webp" alt="">
+        </div>
+        Kyrgyzstan (+996)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Laos.webp" alt="">
+        </div>
+        Laos (+856)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Latvia.webp" alt="">
+        </div>
+        Latvia (+371)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Lebanon.webp" alt="">
+        </div>
+        Lebanon (+961)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Lesotho.webp" alt="">
+        </div>
+        Lesotho (+266)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Liberia.webp" alt="">
+        </div>
+        Liberia (+231)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Libya.webp" alt="">
+        </div>
+        Libya (+218)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Liechtenstein.webp" alt="">
+        </div>
+        Liechtenstein (+423)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Lithuania.webp" alt="">
+        </div>
+        Lithuania (+370)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Luxembourg.webp" alt="">
+        </div>
+        Luxembourg (+352)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Macau.webp" alt="">
+        </div>
+        Macau (+853)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Macedonia.webp" alt="">
+        </div>
+        Macedonia (+389)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Madagascar.webp" alt="">
+        </div>
+        Madagascar (+261)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Malawi.webp" alt="">
+        </div>
+        Malawi (+265)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Malaysia.webp" alt="">
+        </div>
+        Malaysia (+60)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Maldives.webp" alt="">
+        </div>
+        Maldives (+960)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Mali.webp" alt="">
+        </div>
+        Mali (+223)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Malta.webp" alt="">
+        </div>
+        Malta (+356)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Marshall Islands.webp" alt="">
+        </div>
+        Marshall Islands (+692)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Mauritania.webp" alt="">
+        </div>
+        Mauritania (+2
+        22)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Mauritius.webp" alt="">
+        </div>
+        Mauritius (+230)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Mayotte.webp" alt="">
+        </div>
+        Mayotte (+262)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Mexico.webp" alt="">
+        </div>
+        Mexico (+52)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Micronesia.webp" alt="">
+        </div>
+        Micronesia (+691)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Moldova.webp" alt="">
+        </div>
+        Moldova (+373)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Monaco.webp" alt="">
+        </div>
+        Monaco (+377)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Mongolia.webp" alt="">
+        </div>
+        Mongolia (+976)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Montenegro.webp" alt="">
+        </div>
+        Montenegro (+382)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Montserrat.webp" alt="">
+        </div>
+        Montserrat (+1664)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Morocco.webp" alt="">
+        </div>
+        Morocco (+212)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Mozambique.webp" alt="">
+        </div>
+        Mozambique (+258)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Myanmar.webp" alt="">
+        </div>
+        Myanmar (+95)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Namibia.webp" alt="">
+        </div>
+        Namibia (+264)
+    </li>
+    
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Nauru.webp" alt="">
+        </div>
+        Nauru (+674)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Nepal.webp" alt="">
+        </div>
+        Nepal (+977)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Netherlands.webp" alt="">
+        </div>
+        Netherlands (+31)
+    </li>
+    
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Netherlands Antilles.webp" alt="">
+        </div>
+        Netherlands Antilles (+599)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/New Caledonia.webp" alt="">
+        </div>
+        New Caledonia (+687)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/New Zealand.webp" alt="">
+        </div>
+        New Zealand (+64)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Nicaragua.webp" alt="">
+        </div>
+        Nicaragua (+505)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Niger.webp" alt="">
+        </div>
+        Niger (+227)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Nigeria.webp" alt="">
+        </div>
+        Nigeria (+234)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Niue.webp" alt="">
+        </div>
+        Niue (+683)
+    </li>
+    
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/North Korea.webp" alt="">
+        </div>
+        North Korea (+850)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Northern Maria na Islands.webp" alt="">
+        </div>
+        Northern Maria na Islands (+1670)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Norway.webp" alt="">
+        </div>
+        Norway (+47)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Oman.webp" alt="">
+        </div>
+        Oman (+968)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Pakistan.webp" alt="">
+        </div>
+        Pakistan (+92)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Palau.webp" alt="">
+        </div>
+        Palau (+680)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Palestine.webp" alt="">
+        </div>
+        Palestine (+970)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Panama.webp" alt="">
+        </div>
+        Panama (+507)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Papua New Guinea.webp" alt="">
+        </div>
+        Papua New Guinea (+675)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Paraguay.webp" alt="">
+        </div>
+        Paraguay (+595)
+    </li>
+    
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Peru.webp" alt="">
+        </div>
+        Peru (+51)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Philippines.webp" alt="">
+        </div>
+        Philippines (+63)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Pitcairn.webp" alt="">
+        </div>
+        Pitcairn (+64)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Poland.webp" alt="">
+        </div>
+        Poland (+48)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Portugal.webp" alt="">
+        </div>
+        Portugal (+351)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Puerto Rico.webp" alt="">
+        </div>
+        Puerto Rico (+1787)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Qatar.webp" alt="">
+        </div>
+        Qatar (+974)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Republic of the Congo.webp" alt="">
+        </div>
+        Republic of the Congo (+242)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Reunion.webp" alt="">
+        </div>
+        Reunion (+262)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Romania.webp" alt="">
+        </div>
+        Romania (+40)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Russia.webp" alt="">
+        </div>
+        Russia (+7)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Rwanda.webp" alt="">
+        </div>
+        Rwanda (+250)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Saint Barthelemy.webp" alt="">
+        </div>
+        Saint Barthelemy (+590)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Saint Helena.webp" alt="">
+        </div>
+        Saint Helena (+290)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Saint Kitts and Nevis.webp" alt="">
+        </div>
+        Saint Kitts and Nevis (+1869)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Saint Lucia.webp" alt="">
+        </div>
+        Saint Lucia (+1758)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Saint Martin.webp" alt="">
+        </div>
+        Saint Martin (+590)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Saint Pierre and Miquelon.webp" alt="">
+        </div>
+        Saint Pierre and Miquelon (+508)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Saint Vincent and the Grenadines.webp" alt="">
+        </div>
+        Saint Vincent and the Grenadines (+1784)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Samoa.webp" alt="">
+        </div>
+        Samoa (+685)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/San Marino.webp" alt="">
+        </div>
+        San Marino (+378)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Sao Tome and Principe.webp" alt="">
+        </div>
+        Sao Tome and Principe (+239)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Saudi Arabia.webp" alt="">
+        </div>
+        Saudi Arabia (+966)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Senegal.webp" alt="">
+        </div>
+        Senegal (+221)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Serbia.webp" alt="">
+        </div>
+        Serbia (+381)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Seychelles.webp" alt="">
+        </div>
+        Seychelles (+248)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Sierra Leone.webp" alt="">
+        </div>
+        Sierra Leone (+232)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Singapore.webp" alt="">
+        </div>
+        Singapore (+65)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Sint Maarten.webp" alt="">
+        </div>
+        Sint Maarten (+1721)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Slovakia.webp" alt="">
+        </div>
+        Slovakia (+421)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Slovenia.webp" alt="">
+        </div>
+        Slovenia (+386)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Solomon Islands.webp" alt="">
+        </div>
+        Solomon Islands (+677)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Somalia.webp" alt="">
+        </div>
+        Somalia (+252)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/South Africa.webp" alt="">
+        </div>
+        South Africa (+27)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/South Korea.webp" alt="">
+        </div>
+        South Korea (+82)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/South Sudan.webp" alt="">
+        </div>
+        South Sudan (+211)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Spain.webp" alt="">
+        </div>
+        Spain (+34)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Sri Lanka.webp" alt="">
+        </div>
+        Sri Lanka (+94)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Sudan.webp" alt="">
+        </div>
+        Sudan (+249)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Suriname.webp" alt="">
+        </div>
+        Suriname (+597)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Svalbard and Jan Mayen.webp" alt="">
+        </div>
+        Svalbard and Jan Mayen (+47)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Swaziland.webp" alt="">
+        </div>
+        Swaziland (+268)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Sweden.webp" alt="">
+        </div>
+        Sweden (+46)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Switzerland.webp" alt="">
+        </div>
+        Switzerland (+41)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Syria.webp" alt="">
+        </div>
+        Syria (+963)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Taiwan.webp" alt="">
+        </div>
+        Taiwan (+886)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Tajikistan.webp" alt="">
+        </div>
+        Tajikistan (+992)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Tanzania.webp" alt="">
+        </div>
+        Tanzania (+255)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Thailand.webp" alt="">
+        </div>
+        Thailand (+66)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Togo.webp" alt="">
+        </div>
+        Togo (+228)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Tokelau.webp" alt="">
+        </div>
+        Tokelau (+690)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Tonga.webp" alt="">
+        </div>
+        Tonga (+676)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Trinidad and Tobago.webp" alt="">
+        </div>
+        Trinidad and Tobago (+1868)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Tunisia.webp" alt="">
+        </div>
+        Tunisia (+216)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Turkey.webp" alt="">
+        </div>
+        Turkey (+90)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Turkmenistan.webp" alt="">
+        </div>
+        Turkmenistan (+993)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Turks and Caicos Islands.webp" alt="">
+        </div>
+        Turks and Caicos Islands (+1649)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Tuvalu.webp" alt="">
+        </div>
+        Tuvalu (+688)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/U.S. Virgin Islands.webp" alt="">
+        </div>
+        U.S. Virgin Islands (+1340)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Uganda.webp" alt="">
+        </div>
+        Uganda (+256)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Ukraine.webp" alt="">
+        </div>
+        Ukraine (+380)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/United Arab Emirates.webp" alt="">
+        </div>
+        United Arab Emirates (+971)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/United Kingdom.webp" alt="">
+        </div>
+        United Kingdom (+44)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/United States.webp" alt="">
+        </div>
+        United States (+1)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Uruguay.webp" alt="">
+        </div>
+        Uruguay (+598)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Uzbekistan.webp" alt="">
+        </div>
+        Uzbekistan (+998)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Vanuatu.webp" alt="">
+        </div>
+        Vanuatu (+678)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Vatican.webp" alt="">
+        </div>
+        Vatican (+379)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Venezuela.webp" alt="">
+        </div>
+        Venezuela (+58)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Vietnam.webp" alt="">
+        </div>
+        Vietnam (+84)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Wallis and Futuna.webp" alt="">
+        </div>
+        Wallis and Futuna (+681)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Western Sahara.webp" alt="">
+        </div>
+        Western Sahara (+212)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Yemen.webp" alt="">
+        </div>
+        Yemen (+967)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Zambia.webp" alt="">
+        </div>
+        Zambia (+260)
+    </li>
+
+    <li class="flex gap">
+        <div class="flag">
+            <img src="../assets/images/flags/Zimbabwe.webp" alt="">
+        </div>
+        Zimbabwe (+263)
+    </li>
+    
+</ul>

@@ -39,6 +39,7 @@
     <body>
     
         <!--MAIN-->
+        <?php include 'includes/countrycodes.inc.php'; ?>
         <main>
             <div class="flex container">
                 <section class="flex-content padding_2x">
